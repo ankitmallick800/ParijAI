@@ -1,0 +1,11 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Scripts for the ParijAI FastAPI server",
+  "scripts": {
+    "dev": "sh dev.sh",
+    "start": ".venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 5000"
+  },
+  "packageManager": "pnpm@10.12.2"
+}

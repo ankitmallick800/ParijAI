@@ -1,0 +1,26 @@
+# dependencies (VERY IMPORTANT)
+node_modules
+**/node_modules
+
+# pnpm
+.pnpm-store
+**/.pnpm-store
+
+# build output
+dist
+.next
+
+# env
+.env
+
+# git
+.git
+.gitignore
+
+# docker
+Dockerfile
+docker-compose.yml
+
+# misc
+npm-debug.log
+README.md

@@ -1,0 +1,131 @@
+/* ParijAI palette
+   Cream #FEF3E2 · Gold #F4AE52 · Ember #D4621A · Ink #2A1A0E
+   Steps between these four stay in the same hues. */
+
+:root {
+  --brand-cream: #fef3e2;
+  --brand-gold: #f4ae52;
+  --brand-ember: #d4621a;
+  --brand-ink: #2a1a0e;
+
+  --t-forest-50: #fde8d6;
+  --t-forest-100: #f8d3b0;
+  --t-forest-200: #f3b98a;
+  --t-forest-300: #e99255;
+  --t-forest-400: #e07832;
+  --t-forest-500: #d4621a;
+  --t-forest-600: #c05616;
+  --t-forest-700: #9a4514;
+  --t-forest-800: #6e3112;
+  --t-forest-900: #2a1a0e;
+
+  --t-amber-50: #fff6e8;
+  --t-amber-100: #fef3e2;
+  --t-amber-200: #f8d7a0;
+  --t-amber-300: #f6c36e;
+  --t-amber-400: #f4ae52;
+  --t-amber-500: #f4ae52;
+  --t-amber-600: #d4923a;
+  --t-amber-700: #a86e24;
+  --t-amber-800: #6e4818;
+  --t-amber-900: #2a1a0e;
+
+  --t-sky-50: #fef3e2;
+  --t-sky-100: #f8e0bc;
+  --t-sky-200: #f6d09a;
+  --t-sky-300: #f4c07a;
+  --t-sky-400: #f4ae52;
+  --t-sky-500: #d4621a;
+  --t-sky-600: #c05616;
+  --t-sky-700: #8a4a1c;
+  --t-sky-800: #5c3014;
+  --t-sky-900: #2a1a0e;
+
+  --t-terra-50: #fde8d6;
+  --t-terra-100: #f8d0b4;
+  --t-terra-200: #f0b08a;
+  --t-terra-300: #e88858;
+  --t-terra-400: #dc7030;
+  --t-terra-500: #d4621a;
+  --t-terra-600: #b04010;
+  --t-terra-700: #8c3010;
+  --t-terra-800: #5c2010;
+  --t-terra-900: #2a1a0e;
+
+  --t-sand-50: #fef3e2;
+  --t-sand-100: #f6e6cc;
+  --t-sand-200: #edd4ae;
+  --t-sand-300: #e0c090;
+  --t-sand-400: #c9a06e;
+  --t-sand-500: #a07c52;
+  --t-sand-600: #7a5840;
+  --t-sand-700: #5c3e28;
+  --t-sand-800: #3f2918;
+  --t-sand-900: #2a1a0e;
+
+  --t-stone-50: #fef3e2;
+  --t-stone-100: #f3e4cc;
+  --t-stone-200: #e4d0b8;
+  --t-stone-300: #c4a88e;
+  --t-stone-400: #a07c62;
+  --t-stone-500: #7a5840;
+  --t-stone-600: #5c3e28;
+  --t-stone-700: #3f2918;
+  --t-stone-800: #2a1a0e;
+  --t-stone-900: #2a1a0e;
+
+  --t-bg: var(--brand-cream);
+  --t-bg-elevated: #fffbf4;
+  --t-bg-sunken: #f6e6cc;
+  --t-bg-overlay: rgba(42, 26, 14, 0.55);
+
+  --t-text: var(--brand-ink);
+  --t-text-secondary: #5c3e28;
+  --t-text-muted: #a07c62;
+  --t-text-inverse: var(--brand-cream);
+
+  --t-border: #edd4ae;
+  --t-border-subtle: #f6e6cc;
+  --t-border-focus: var(--brand-ember);
+
+  --t-primary: var(--brand-ember);
+  --t-primary-light: #fde8d6;
+  --t-primary-hover: #c05616;
+
+  --t-accent: var(--brand-gold);
+  --t-accent-light: #fff6e8;
+  --t-accent-hover: #d4923a;
+
+  --t-info: var(--brand-ember);
+  --t-info-light: var(--brand-cream);
+  --t-warm: var(--brand-gold);
+  --t-warm-light: #fff6e8;
+
+  --t-success: var(--brand-ember);
+  --t-error: #b04010;
+  --t-warning: var(--brand-gold);
+
+  --t-gradient-hero: linear-gradient(165deg, #fef3e2 0%, #f8e4c4 48%, #f6d7a4 100%);
+  --t-gradient-primary: linear-gradient(135deg, #d4621a 0%, #e07832 72%, #f4ae52 140%);
+  --t-gradient-warm: linear-gradient(135deg, #f4ae52, #d4621a);
+  --t-gradient-card: linear-gradient(180deg, #fffbf4, #fef3e2);
+
+  --t-shadow-sm: 0 1px 2px rgba(42, 26, 14, 0.06);
+  --t-shadow-md: 0 8px 24px rgba(42, 26, 14, 0.08);
+  --t-shadow-lg: 0 18px 40px rgba(42, 26, 14, 0.12);
+  --t-shadow-glow: 0 8px 24px rgba(212, 98, 26, 0.28);
+  --t-shadow-warm: 0 8px 24px rgba(244, 174, 82, 0.35);
+
+  --t-radius-sm: 8px;
+  --t-radius-md: 12px;
+  --t-radius-lg: 16px;
+  --t-radius-xl: 20px;
+  --t-radius-2xl: 24px;
+  --t-radius-full: 9999px;
+
+  --t-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-duration-fast: 160ms;
+  --t-duration: 280ms;
+  --t-duration-slow: 520ms;
+  --nav-h: 4rem;
+}

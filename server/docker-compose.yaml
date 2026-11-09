@@ -1,0 +1,9 @@
+services:
+  ParijAI-api:
+    build: .
+    env_file:
+      - .env
+    container_name: ParijAI-api
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
