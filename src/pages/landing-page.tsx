@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import {
   MapPin, Clock, Wallet, Globe, Sparkles,
   Navigation, Compass, SunMedium, ArrowRight,
-  Star, Mountain, Trees, Waves,
 } from "lucide-react";
 import { Button } from "../components/ui/button";
 import { Reveal } from "@/components/reveal";
@@ -55,30 +54,6 @@ const steps = [
     title: "Leave with a map",
     description: "A timed itinerary, a route, and the cost of the trip.",
     icon: Navigation,
-  },
-];
-
-const destinations = [
-  {
-    name: "Kyoto, Japan",
-    tag: "Zen and tradition",
-    image: `${import.meta.env.BASE_URL}images/kyoto.png`,
-    rating: "4.9",
-    icon: Trees,
-  },
-  {
-    name: "Santorini, Greece",
-    tag: "Coastal light",
-    image: `${import.meta.env.BASE_URL}images/santorini.png`,
-    rating: "4.8",
-    icon: Waves,
-  },
-  {
-    name: "Swiss Alps",
-    tag: "Mountain air",
-    image: `${import.meta.env.BASE_URL}images/alps.png`,
-    rating: "5.0",
-    icon: Mountain,
   },
 ];
 
