@@ -177,49 +177,6 @@ export default function LandingPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
-        <Reveal>
-          <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-            <h2 className="text-3xl sm:text-5xl" style={{ color: "var(--brand-ink)" }}>Places people keep going back to.</h2>
-            <p className="max-w-sm text-sm" style={{ color: "var(--t-stone-600)" }}>
-              Start with a city you already love, or type any other name in the planner.
-            </p>
-          </div>
-        </Reveal>
-
-        <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-          {destinations.map((place, index) => (
-            <Reveal key={place.name} delay={index * 80}>
-              <Link to="/explore" className="group block h-full">
-                <article className="t-card h-full overflow-hidden">
-                  <div className="relative aspect-[4/3] overflow-hidden">
-                    <img
-                      src={place.image}
-                      alt={place.name}
-                      className="size-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    />
-                    <span
-                      className="absolute top-3 left-3 inline-flex items-center gap-1 rounded-full px-2.5 py-1 text-xs font-semibold"
-                      style={{ background: "rgba(254, 243, 226, 0.92)", color: "var(--brand-ink)" }}
-                    >
-                      <place.icon className="size-3.5" />
-                      {place.tag}
-                    </span>
-                  </div>
-                  <div className="flex items-center justify-between gap-3 p-4">
-                    <h3 className="text-lg" style={{ color: "var(--brand-ink)" }}>{place.name}</h3>
-                    <span className="inline-flex items-center gap-1 text-sm font-semibold" style={{ color: "var(--brand-ember)" }}>
-                      <Star className="size-4" style={{ fill: "var(--brand-gold)", color: "var(--brand-gold)" }} />
-                      {place.rating}
-                    </span>
-                  </div>
-                </article>
-              </Link>
-            </Reveal>
-          ))}
-        </div>
-      </section>
-
       <section className="px-4 pb-16 sm:px-6 sm:pb-24">
         <Reveal>
           <div
