@@ -1,3 +1,9 @@
+<img width="1257" height="657" alt="image" src="https://github.com/user-attachments/assets/9297cd77-83a3-42b4-a8d9-ff1efd11345e" />
+<img width="1156" height="967" alt="image" src="https://github.com/user-attachments/assets/709063eb-261a-493b-a495-7afaaabe9b1f" />
+<img width="1170" height="987" alt="image" src="https://github.com/user-attachments/assets/27cc56ab-80a2-4b43-8648-bc4461dbf697" />
+<img width="1152" height="986" alt="image" src="https://github.com/user-attachments/assets/9f0ae891-87d2-4c39-a252-6045425c16d3" />
+
+
 # ParijAI
 
 The original ParijAI site: a landing page, then preferences, places, and routes, then a mapped itinerary. Groq picks the places and writes the summary. OpenStreetMap pins the stops and measures the routes.
